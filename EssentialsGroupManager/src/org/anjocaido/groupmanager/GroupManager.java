@@ -498,7 +498,7 @@ public class GroupManager extends JavaPlugin {
 
 				// Validating arguments
 				if ((args.length != 2) && (args.length != 3)) {
-					sender.sendMessage(ChatColor.RED + "Review your arguments count! (/manuadd <player> <group> | optional [world])");
+					sender.sendMessage(ChatColor.RED + "Review your arguments count! (/rank <player> <group> | optional [world])");
 					return true;
 				}
 
